@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  position: relative;
+  justify-content: center;
+}
+.main {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  background-color: brown;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  background-color: bisque;
+  border-radius: 16px;
+  position: absolute;
+  justify-content: center;
+  margin-left: 220px;
+  top: 150px;
+}
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  border-color: aqua;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: cadetblue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card1 {
+  width: 250px;
+  height: 300px;
+  background-color: bisque;
+}
+.card2 {
+  width: 250px;
+  height: 300px;
+  background-color: bisque;
+}
+.card3 {
+  width: 250px;
+  height: 300px;
+  background-color: bisque;
+}
+.nav {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+}
+.upper {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+}
+.bottom {
+  width: 100%;
+  height: 100vh;
+  background-color: darksalmon;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card4 {
+  width: 250px;
+  height: 300px;
+  background-color: bisque;
+}
+.card5 {
+  width: 250px;
+  height: 300px;
+  background-color: bisque;
+}
+.card6 {
+  width: 250px;
+  height: 300px;
+  background-color: bisque;
+}
+.main1 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(75, 174, 75);
+}
+form {
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+form input {
+  width: 400px;
+  height: 20px;
+  border-radius: 8px;
+}
